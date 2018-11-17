@@ -5,3 +5,11 @@
 .bg-3f2b22 {
   background-color: #3f2b22;
 }
+
+.triangle {
+  border-bottom: 50px solid transparent;
+  border-top: 50px solid blue;
+  border-right: 50px solid blue;
+  border-left: 50px solid blue;
+
+}
