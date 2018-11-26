@@ -10,15 +10,24 @@
   background-color: #191919;
 }
 
+.dark-brown {
+  background-color: #362f2d;
+}
+
 /*.color25 {*/
   //color: #252525;
 /*}*/
 
-.triangle {
-  border-bottom: 50px solid transparent;
-  border-top: 50px solid blue;
-  border-right: 50px solid blue;
-  border-left: 50px solid blue;
+.triangle:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  //border-bottom: 50px solid #fbfaf8;
+  border: 50px solid;
+  border-top: blue;
+/*  border-right: 50px solid blue;*/
+  /*border-left: 50px solid blue;*/
 
 }
 
