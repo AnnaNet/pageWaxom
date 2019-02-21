@@ -1,3 +1,17 @@
+.row {
+  margin: 0 -15px 0 -15px !important;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px !important;
+  }
+}
+
+.container {
+  padding: 0 !important;
+}
+
 .light {
   background-color: #fbfaf8;
 }
